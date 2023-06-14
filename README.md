@@ -23,7 +23,6 @@
 	    path = ~/.gitconfig-work
   ```
 
-    ```
     $ vim .gitconfig-personal
 
     [user]
@@ -34,8 +33,7 @@
 	    sshCommand = "ssh -i ~/.ssh/personal_id_rsa"
   ```
 
-      ```
-    $ vim .gitconfig-personal
+    $ vim .gitconfig-work
 
     [user]
 	    name = Anderson Silva de Sa
