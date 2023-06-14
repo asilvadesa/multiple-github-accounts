@@ -1,0 +1,6 @@
+[user]
+	 name = Anderson Silva de Sa
+	 email = asilvagit@gmail.com
+
+[core]
+	sshCommand = "ssh -i ~/.ssh/work_ida_rsa"

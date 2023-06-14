@@ -1,0 +1,6 @@
+[user]
+	name = Anderson Silva de Sa
+[includeIf "gitdir:~/workspace/personal/"]
+	path = ~/.gitconfig-personal
+[includeIf "gitdir:~/workspace/work/"]
+	path = ~/.gitconfig-work
