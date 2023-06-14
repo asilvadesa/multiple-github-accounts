@@ -1,8 +1,7 @@
 # personal-multiple-github-accounts
 
-### Como configurar multiplas contas GitHub no mesmo computador
-- Encontrei um material em inglês para a instalação do Appium para Ubuntu, para mais informações 
-[clique aqui](https://confusedcoders.com/general-programming/mobile/how-to-install-appium-in-ubuntu). 
+### Pré-requisito
+- Git instalado
 
 ### Steps
 ### 1. Crie os arquivos Git de configuração
@@ -32,7 +31,6 @@
     [core]
 	    sshCommand = "ssh -i ~/.ssh/personal_id_rsa"
   ```
-
     $ vim .gitconfig-work
 
     [user]
@@ -64,9 +62,5 @@
 ```
     $ cd ~/.ssh
     $ cat personal_id_rsa.pub
-    $ cat personal_id_rsa.pub
+    $ cat work_id_rsa.pub
 ```
-
-
- 
-
